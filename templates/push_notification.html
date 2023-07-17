@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Push Notification Example</title>
+</head>
+<body>
+    <h1>Push Notification Example</h1>
+    <form action="/send-notification" method="post">
+        <label for="token">Device Token:</label><br>
+        <input type="text" id="token" name="token"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Send Notification">
+    </form>
+</body>
+</html>
